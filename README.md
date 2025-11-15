@@ -145,3 +145,20 @@ Feel free to add your own creative touches for bonus points:
 - Additional character classes beyond the three required
 - More weapon types with different properties
 - Enhanced special abilities with unique effects
+
+## COMP 163 - Project 2: Character Showcase
+
+This project creates a character system using Inheritance and Classes to showcase differe character stats and abilities. The project use Hierarchial Inheritence with the base class being Character and multiple derived classes Player which inherites from Character and the different character classes Warrior, Mage, and Rogue which inherite from Player. It also uses method overriding which is seen through Player overriding Character display_class() method and the character classes overriding the Player attack() method using super.
+
+## Bonus Creativity Choices
+
+In this project I decided to add the attributes level, experience, and gold to the program. With the starting values being 0, 0, and 100 these values update for the characters after the battle depending on the winner of the match. If the character is the winner then they will level up, gain 500 experience points, and gain 100 more gold. While the losing player gains 300 experience point, 50 gold, and does not level up until they win a match. I also made the character damage half of the character's strength. As well as the base attack for the character correspond with the Warrior for example the Rogue's highest attack is equal to the Warrior's base attack.
+
+## AI Usage 
+
+AI was used in this project to gain a general idea of what the code should look like or to explain why a particular code was not giving an expected output. At no point was any code copied and pasted into the program. All of the code was typed by hand by me. AI was also used to help format the README for better understanding and cohesiveness. 
+
+## How To Run
+
+To run the program save the python file as a .py file. 
+Open the terminal and run: python project2.py
